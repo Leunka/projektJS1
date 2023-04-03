@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Výpočet objemu koule</title> 
+    <script src="script.js"></script>
 </head>
 <body>
+    <h1>Výpočet objemu koule</h1>
+    <img src="https://cs.calcprofi.com/obyem_shara/pic.png" alt="koule">
+    <img src="C:\Users\rosenbergeroval\Pictures\Screenshots\Snímek obrazovky 2023-03-27 100848.png" alt="vzorec">
+    <form>
+      <label for="polomer">Poloměr v cm:</label>
+      <input type="number" id="polomer" name="polomer">
+      <br><br>
+      <input type="button" value="Vypočítat" onclick="vypocet()">
+      <div id="vysledek"></div>
+    </form>
+    <h1>Kontrola výsledku</h1>
+    <form>
+      <label for="polomer">Poloměr v cm:</label>
+      <input type="number" id="polomerzadany" name="polomerzadany">
+      <br><br>
+      <label for="výsledek">Výsledek v cm³:</label>
+      <input type="number" id="vysledekvcm" name="vysledekvcm">
+      <br><br>
+      <input type="button" value="Zkotrolovat" onclick="kontrola()">
+      <div id="kontrolaVysledku"></div>
+    </form>
+
     
+    <p>
+        Pro podrobnosti o příkladu klikněte zde: <a href="napoveda.html">nápověda</a>
+    </p>
+
+
 </body>
 </html>
+
+  
